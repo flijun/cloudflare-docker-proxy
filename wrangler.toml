@@ -13,13 +13,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 [env.production]
 name = "cloudflare-docker-proxy"
 routes = [
-  { pattern = "docker.younotku.eu.org", custom_domain = true },
-  { pattern = "quay.younotku.eu.org", custom_domain = true },
-  { pattern = "gcr.younotku.eu.org", custom_domain = true },
-  { pattern = "k8s-gcr.younotku.eu.org", custom_domain = true },
-  { pattern = "k8s.younotku.eu.org", custom_domain = true },
-  { pattern = "ghcr.younotku.eu.org", custom_domain = true },
-  { pattern = "cloudsmith.younotku.eu.org", custom_domain = true },
+  { pattern = "docker.lijun.online", custom_domain = true },
+  { pattern = "quay.lijun.online", custom_domain = true },
+  { pattern = "gcr.lijun.online", custom_domain = true },
+  { pattern = "k8s-gcr.lijun.online", custom_domain = true },
+  { pattern = "k8s.lijun.online", custom_domain = true },
+  { pattern = "ghcr.lijun.online", custom_domain = true },
+  { pattern = "cloudsmith.lijun.online", custom_domain = true },
 ]
 
 [env.production.vars]
@@ -28,7 +28,7 @@ TARGET_UPSTREAM = ""
 
 [env.staging]
 name = "cloudflare-docker-proxy-staging"
-route = { pattern = "docker-staging.younotku.eu.org", custom_domain = true }
+route = { pattern = "docker-staging.lijun.online", custom_domain = true }
 
 [env.staging.vars]
 MODE = "staging"
