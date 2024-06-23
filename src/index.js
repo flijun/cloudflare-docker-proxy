@@ -9,17 +9,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.younotku.eu.org": dockerHub,
-  "quay.younotku.eu.org": "https://quay.io",
-  "gcr.younotku.eu.org": "https://gcr.io",
-  "k8s-gcr.younotku.eu.org": "https://k8s.gcr.io",
-  "k8s.younotku.eu.org": "https://registry.k8s.io",
-  "ghcr.younotku.eu.org": "https://ghcr.io",
-  "cloudsmith.younotku.eu.org": "https://docker.cloudsmith.io",
+  "docker.lijun.online": dockerHub,
+  "quay.lijun.online": "https://quay.io",
+  "gcr.lijun.online": "https://gcr.io",
+  "k8s-gcr.lijun.online": "https://k8s.gcr.io",
+  "k8s.lijun.online": "https://registry.k8s.io",
+  "ghcr.lijun.online": "https://ghcr.io",
+  "cloudsmith.lijun.online": "https://docker.cloudsmith.io",
 
 
   // staging
-  "docker-staging.younotku.eu.org": dockerHub,
+  "docker-staging.lijun.online": dockerHub,
 };
 
 function routeByHosts(host) {
